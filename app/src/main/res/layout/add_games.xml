@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="440dp"
+        android:gravity="center"
+        android:background="#c2d4dd">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Completed Game"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#563f46"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#e4d1d1">
+
+            <EditText
+                android:id="@+id/gameNameD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Game's Name"
+                android:textSize="20sp"
+                android:textColor="#563f46"
+                android:gravity="center"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/releseY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Release Year"
+                android:textSize="20sp"
+                android:textColor="#563f46"
+                android:gravity="center"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/genreG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Genre of The Game"
+                android:textSize="20sp"
+                android:textColor="#563f46"
+                android:gravity="center"
+                android:inputType="text"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:layout_marginLeft="150dp"
+                android:background="#34a853"
+                />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:background="#34a853"
+                android:layout_marginLeft="18dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

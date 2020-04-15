@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailInputET"
+        android:hint="Email Address"
+        android:text="a@gmail.com"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_below="@+id/emailInputET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordInputET"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:text="antoy1"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_below="@+id/passwordInputET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginBtn"
+        android:text="sign in"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#004d1a"
+        android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginBtn"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Have no account?"
+            android:textSize="20dp"
+            android:layout_marginLeft="90dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="260dp"
+            android:textColor="#004d1a"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

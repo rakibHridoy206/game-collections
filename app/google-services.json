@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "164831577151",
+    "firebase_url": "https://unfolded-projects.firebaseio.com",
+    "project_id": "unfolded-projects",
+    "storage_bucket": "unfolded-projects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164831577151:android:f5a6f62689abb7b9f1a48a",
+        "android_client_info": {
+          "package_name": "com.example.collections"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164831577151-6filihmp3si6u255nkag4t6721253jb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Uua4g3XLfC_Alf6o7Mo6SztkAIMb3fY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164831577151-6filihmp3si6u255nkag4t6721253jb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164831577151:android:1070a26d1c7eaaf9f1a48a",
+        "android_client_info": {
+          "package_name": "com.example.gamecollections"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164831577151-6filihmp3si6u255nkag4t6721253jb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Uua4g3XLfC_Alf6o7Mo6SztkAIMb3fY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164831577151-6filihmp3si6u255nkag4t6721253jb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

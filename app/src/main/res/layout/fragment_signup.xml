@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignupFragment">
+
+    <!-- Name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER NAME"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#004d1a"/>
+    <EditText
+        android:id="@+id/userNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        />
+
+    <!-- Email -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER EMAIL"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#004d1a"/>
+    <EditText
+        android:id="@+id/userEmailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <!-- Mobile -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOBILE NO"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#004d1a"/>
+    <EditText
+        android:id="@+id/userPhoneNoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your mobile no"
+        android:padding="15dp"
+        android:inputType="text|phone"
+        />
+
+    <!-- Password -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#004d1a"/>
+    <EditText
+        android:id="@+id/userPasswordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        />
+
+    <!-- Confirm Password -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM PASSWORD"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#004d1a"/>
+    <EditText
+        android:id="@+id/userConfirmPasswordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-enter your password"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        />
+
+    <!-- Register -->
+    <Button
+        android:id="@+id/userRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:text="Register"
+        android:textColor="#02105D"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        />
+
+
+</LinearLayout>

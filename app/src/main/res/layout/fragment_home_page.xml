@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#d5e1df"
+    tools:context=".HomePageFragment">
+
+    <TextView
+        android:id="@+id/androidGames"
+        android:gravity="center"
+        android:background="#87bdd8"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Android Games"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/pcGames"
+        android:gravity="center"
+        android:background="#87bdd8"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="PC Games"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
